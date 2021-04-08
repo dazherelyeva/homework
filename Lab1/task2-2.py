@@ -1,5 +1,5 @@
-p = int(input("Выручка в первый день\n"))
-q = int(input("Цель\n"))
+p = float(input("Выручка в первый день\n"))
+q = float(input("Цель\n"))
 n = 1
 while p <= q:
     p = p + (p/100*3)
